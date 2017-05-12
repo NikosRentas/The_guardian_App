@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/main_marg"
+    android:orientation="vertical">
+
+    <!-- Title text view -->
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/title_marg_left"
+        android:layout_marginStart="@dimen/title_marg_left"
+        android:layout_marginRight="@dimen/title_marg_right"
+        android:layout_marginEnd="@dimen/title_marg_right"
+        android:layout_marginTop="@dimen/title_marg_top"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/web_title"
+        android:textSize="@dimen/title_font_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/inner_linear_marg_bot">
+
+        <!-- Section text view -->
+        <TextView
+            android:id="@+id/section_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/section_marg_left"
+            android:layout_marginStart="@dimen/section_marg_left"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/section"
+            android:textSize="@dimen/section_font_size" />
+
+        <!-- Date text view -->
+        <TextView
+            android:id="@+id/date_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/date_marg_left"
+            android:layout_marginStart="@dimen/date_marg_left"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/date" />
+    </LinearLayout>
+</LinearLayout>

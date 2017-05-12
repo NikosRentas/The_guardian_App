@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_marg">8dp</dimen>
+    <dimen name="title_font_size">24sp</dimen>
+    <dimen name="section_font_size">18sp</dimen>
+    <dimen name="date_marg_left">16dp</dimen>
+    <dimen name="section_marg_left">8dp</dimen>
+    <dimen name="no_data_font_size">18sp</dimen>
+    <dimen name="inner_linear_marg_bot">8dp</dimen>
+    <dimen name="title_marg_left">8dp</dimen>
+    <dimen name="title_marg_right">8dp</dimen>
+    <dimen name="title_marg_top">8dp</dimen>
+</resources>
