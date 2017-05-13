@@ -11,6 +11,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -79,9 +80,9 @@ public class NewsMainActivity extends AppCompatActivity
         Uri.Builder builder = uri.buildUpon();
         builder.appendQueryParameter("q", "Donald Trump");
         builder.appendQueryParameter("order-by", orderBy);
-        builder.appendQueryParameter("page-size", "10");
+        builder.appendQueryParameter("page-size", "30");
         builder.appendQueryParameter("api-key", API_KEY);
-
+        Log.v("RRRRR", builder.toString());
         return new NewsLoader(this, builder.toString());
     }
 

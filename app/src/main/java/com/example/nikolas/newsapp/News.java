@@ -1,10 +1,10 @@
 package com.example.nikolas.newsapp;
 
 public class News {
-    private String mSectionName;
-    private String mPublishDate;
-    private String mWebTitle;
-    private String mWebURL;
+    private static String mSectionName;
+    private static String mPublishDate;
+    private static String mWebTitle;
+    private static String mWebURL;
 
     public News(String sectionName, String publishDate, String webTitle, String webURL) {
         mSectionName = sectionName;
