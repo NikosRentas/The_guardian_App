@@ -1,31 +1,31 @@
 package com.example.nikolas.newsapp;
 
 public class News {
-    private static String mSectionName;
-    private static String mPublishDate;
-    private static String mWebTitle;
-    private static String mWebURL;
+    private static String sSectionName;
+    private static String sPublishDate;
+    private static String sWebTitle;
+    private static String sWebURL;
 
     public News(String sectionName, String publishDate, String webTitle, String webURL) {
-        mSectionName = sectionName;
-        mPublishDate = publishDate;
-        mWebTitle = webTitle;
-        mWebURL = webURL;
+        sSectionName = sectionName;
+        sPublishDate = publishDate;
+        sWebTitle = webTitle;
+        sWebURL = webURL;
     }
 
-    public String getmSectionName() {
-        return mSectionName;
+    public String getsSectionName() {
+        return sSectionName;
     }
 
-    public String getmPublishDate() {
-        return mPublishDate;
+    public String getsPublishDate() {
+        return sPublishDate;
     }
 
-    public String getmWebTitle() {
-        return mWebTitle;
+    public String getsWebTitle() {
+        return sWebTitle;
     }
 
-    public String getmWebURL() {
-        return mWebURL;
+    public String getsWebURL() {
+        return sWebURL;
     }
 }
