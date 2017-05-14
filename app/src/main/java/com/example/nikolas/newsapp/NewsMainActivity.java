@@ -48,7 +48,7 @@ public class NewsMainActivity extends AppCompatActivity
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 News news = mNewsAdapter.getItem(position);
-                Uri uri = Uri.parse(news.getmWebURL());
+                Uri uri = Uri.parse(news.getsWebURL());
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }

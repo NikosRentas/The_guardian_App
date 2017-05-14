@@ -28,15 +28,15 @@ public class NewsAdapter extends ArrayAdapter<News> {
 
         // Title text view
         TextView title = (TextView) convertView.findViewById(R.id.title_text);
-        title.setText(currentObj.getmWebTitle());
+        title.setText(currentObj.getsWebTitle());
 
         // Section name text view
         TextView section = (TextView) convertView.findViewById(R.id.section_view);
-        section.setText(currentObj.getmSectionName());
+        section.setText(currentObj.getsSectionName());
 
         // Date text view
         TextView date = (TextView) convertView.findViewById(R.id.date_view);
-        date.setText(dateForm(currentObj.getmPublishDate()));
+        date.setText(dateForm(currentObj.getsPublishDate()));
 
         return convertView;
     }
